@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Secular One", sans-serif;
+  transition: all 150ms linear 0s;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  height: 89vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: rgb(24, 23, 23);
+}
+
+#main-txt {
+  color: #fff;
+  text-align: center;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+#front-txt {
+  color: grey;
+  text-transform: uppercase;
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+#distance {
+  left: 2vh;
+  z-index: 2;
+  bottom: 1vh;
+  font-weight: bold;
+  position: absolute;
+  padding: 0 0 40px 40px;
+  color: white;
+}
+
+.video {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  background-color: black;
+}
+
+::selection {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.navbar {
+  z-index: 1;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  user-select: none;
+  align-items: center;
+  padding: 40px 0 40px 40px;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  margin-right: 5vh;
+}
+
+.navbar > ul > li > a {
+  margin: 20px;
+  color: #fff;
+  user-select: none;
+  margin-right: 10px;
+}
+
+.navbar > ul > li > a:hover {
+  cursor: pointer;
+  color: rgb(202, 19, 19);
+}
+
+.main-content {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  margin-top: -25vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  word-wrap: break-word;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 5rem;
+}
+
+img:hover {
+  user-select: none;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(rgba(13, 6, 11, 0), rgba(13, 6, 11, 1));
+}
+
+.content-cnt {
+  z-index: 1;
+  width: 20rem;
+  height: 5rem;
+  display: flex;
+  margin-top: 10vh;
+  user-select: none;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  transition: 0.4s ease-in-out;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.692);
+}
+
+.content-cnt > a {
+  font-size: 2.8rem;
+  user-select: none;
+  color: rgb(189, 189, 189);
+}
+
+.content-cnt > a:hover {
+  font-size: 2.8rem;
+  box-shadow: teal;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(255, 255, 255, 0.11) 0px 3px 14px;
+}
+
+.footer {
+  z-index: 1;
+  padding: 15px;
+  font-size: 13px;
+  color: rgb(128, 128, 128);
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(95, 93, 93);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(65, 64, 64);
+}

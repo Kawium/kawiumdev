@@ -1,0 +1,6 @@
+/* Desktop */
+@media only screen and (max-width: 976px) {
+  .cards-container {
+    flex-direction: column;
+  }
+}

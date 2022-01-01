@@ -1,0 +1,93 @@
+#main-title {
+  margin-bottom: 5vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.1vh;
+}
+
+#kawan-card {
+  border-radius: 0.25rem;
+  background-color: black;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#main-title {
+  color: black;
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+.wrapper-projects {
+  height: 100%;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+}
+
+.main-new {
+  flex-flow: row wrap;
+  margin-bottom: 3rem;
+}
+
+.card-self {
+  border-radius: 0.25rem;
+  margin: 10px;
+  background-color: pink;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 32px;
+}
+
+.cards-logos {
+  object-fit: contain;
+  width: 300px;
+  height: 300px;
+}
+
+.card-top {
+  border-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-bottom {
+  border-radius: 0.25rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.card-info {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+button {
+  text-transform: uppercase;
+}
+
+.card-button {
+  padding: 0.75rem 1rem;
+  background-color: #ffffff00;
+  color: #111827;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin-top: 30px;
+  user-select: none;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card-button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: rgb(35, 38, 41);
+}
